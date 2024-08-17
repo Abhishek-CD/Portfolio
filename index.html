@@ -1,0 +1,753 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abhishek C D - Portfolio Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jaro:opsz@6..72&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Passion+One:wght@400;700;900&family=Reem+Kufi:wght@400..700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Secular+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="portfolio.css">
+    <link rel="stylesheet" href="responsive_width.css">
+    <link rel="stylesheet" href="responsive_height.css">
+
+</head>
+<body>
+    <div class="main">
+        <div class="top-dup"></div>
+        <div class="top" id="top-div">
+            <div class="top-left"></div>
+            <div class="top-right">
+                <div class="right-divs">
+                    <P onclick="aboutMove()">ABOUT</P>
+                    <p class="pro" onclick="projectMove()">PROJECTS</p>
+                    <p class="con" onclick="contactMove()">CONTACT</p>
+                </div>
+                <button class="show-right"></button>
+            </div>
+        </div>
+        <div class="div1" id="first-div">
+            <div class="triangle"></div>
+            <div class="rest"></div>
+            <img src="mp.png" alt="">
+            <div class="hello-div">
+                <p class="hello"><span>HI, I'M</span></p>
+            </div>
+            <div class="hidden" id="name">
+                <p class="myname"><span>ABHISHEK C D</span></p>
+            </div>
+            <div class="des-div">
+                <p class="des">I'm a Computer Science Engineering graduate with specialized training in Python Full-Stack development and a strong grasp of core programming concepts.</p>
+            </div>
+        </div>
+        <p class="down"><i class="fa-solid fa-computer-mouse" onclick="moveMouse()"></i></p>
+        <div class="div2" id="second-div">
+            <div class="div2-sub1">
+                <div class="introduction " id="intro-div">
+                    <p class="intro"><span>INTRODUCTION</span></p>
+                    <p class="overview"><span>Overview</span></p>
+                </div>
+                <div class="intro-content">
+                    <p>With a strong foundation in Python Django web development, I am equipped with the skills to build dynamic and user-friendly web applications. I am proficient in developing and deploying web applications using the Django framework and have a strong understanding of front-end technologies including HTML, CSS, and JavaScript. As a recent Computer Science Engineering graduate from the 2023 batch with six months of intensive training in Python and Django, I am eager to contribute to innovative projects and bring my technical expertise to a forward-thinking team.</p>
+                </div>
+            </div>
+            <div class="div22">
+                <div class="div2-sub2">
+                    <div class="card card1">
+                        <div class="halfcard">
+                            <i class="fa-solid fa-code icon"></i>
+                        </div>
+                        <p class="card-head">Frontend</p>
+                        <p class="card-head2 devop">Developer</p>
+                    </div>
+                    <div class="card card2">
+                        <div class="halfcard">
+                            <i class="fa-solid fa-sitemap icon"></i>
+                        </div>
+                        <p class="card-head">Backend</p>
+                        <p class="card-head2 devop">Developer</p>
+                    </div>
+                    <div class="card card3">
+                        <div class="halfcard">
+                            <i class="fa-solid fa-palette icon"></i>
+                        </div>
+                        <p class="card-head">UI/UX</p>
+                        <p class="card-head2 design">Design</p>
+                    </div>
+                    <div class="card card4">
+                        <div class="halfcard">
+                            <i class="fa-solid fa-bars-progress icon"></i>
+                        </div>
+                        <p class="card-head">Project</p>
+                        <p class="card-head2 management">Management</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="div3" id="third-div">
+            <div class="div3-sub1">
+                <div class="case">
+                    <p class="intro"><span>CASE STUDIES</span></p>
+                    <p class="overview prj"><span>Projects</span></p>
+                </div>
+                <div class="project-content">
+                    <p>This section features a selection of my work as a Python Django web developer. I've undertaken various projects that illustrate my growth and expertise in the field. Below, you'll find descriptions of my projects.</p>
+                </div>
+            </div>
+
+            <div class="div3-sub2 d3-s2">
+                <div class="project1" id="prj1">
+                    <div class="project1-sub1" id="psub1">
+                        <div class="pjt-des pjt1-des">
+                        <p class="pjt1-des-head">TREND KITCHEN</p>
+                        <p class="pjt1-des-des">A complete restaurant management web application featuring OTP login, table booking, QR code ordering, menu management, and bill generation.</p>
+                        </div>
+                        <div class="prj-mask tkmask">
+                            <p class="pjt-head">TREND_KITCHEN</p>
+                        </div>
+                    </div>
+                </div>
+                
+                
+                <div class="project2 pj2-card" id="prj2">
+                    <div class="pjt-des pjt2-des">
+                        <p class="pjt1-des-head">OLX CLONE</p>
+                        <p class="pjt1-des-des">Developed a functional OLX clone website featuring user authentication, add, update,search and remove listings.</p>
+                    </div>
+                    <div class="prj-mask olxmask">
+                        <p class="pjt-head">OLX_CLONE</p>
+                    </div>
+                </div>
+                
+                
+                <div class="project3 pj3-card" id="prj3">
+                    <div class="pjt-des pjt3-des">
+                        <p class="pjt1-des-head">FACEBOOK CLONE</p>
+                        <p class="pjt1-des-des">Built a Facebook clone with user authentication, profile management, friend requests, and full post functionality including create, update, and delete.</p>
+                    </div>
+                    <div class="prj-mask fbmask">
+                        <p class="pjt-head">FACEBOOK_CLONE</p>
+                    </div>
+                </div>
+                
+                
+                <div class="project4 pj4-card" id="prj4">
+                    <div class="pjt-des pjt4-des">
+                        <p class="pjt1-des-head">INSTAGRAM CLONE</p>
+                        <p class="pjt1-des-des">Built a dynamic Instagram clone website.</p>
+                    </div>
+                    <div class="prj-mask instamask">
+                        <p class="pjt-head">INSTAGRA_CLONE</p>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="div3-sub2 d3-s2-responsvie">
+                <div class="hproject1" id="hprj1">
+                    <div class="hprj1-des-mask hpj1-main">
+                        <p class="hpj-head">TREND KITCHEN</p>
+                        <p class="hpj-des">A complete restaurant management web application featuring OTP login, table booking, QR code ordering, menu management, and bill generation.</p>
+                    </div>
+                    <div class="hprj2-mask htk-mask">
+                        <p class="hprj2-mask-head tk-head">TREND KITCHEN</p>
+                    </div>
+                </div>
+
+                <div class="hproject2" id="hprj2">
+                    <div class="hprj1-des-mask hpj2-main">
+                        <p class="hpj-head">OLX CLONE</p>
+                        <p class="hpj-des">Developed a functional OLX clone website featuring user authentication, add, update,search and remove listings.</p>
+                    </div>
+                    <div class="hprj2-mask holx-mask">
+                        <p class="hprj2-mask-head">OLX_CLONE</p>
+                    </div>
+                </div>
+
+                <div class="hproject3" id="hprj3">
+                    <div class="hprj1-des-mask hpj3-main">
+                        <p class="hpj-head">FACEBOOK CLONE</p>
+                        <p class="hpj-des">Built a Facebook clone with user authentication, profile management, friend requests, and full post functionality including create, update, and delete.</p>
+                    </div>
+                    <div class="hprj2-mask hfb-mask">
+                        <p class="hprj2-mask-head">FACEBOOK_CLONE</p>
+                    </div>
+                </div>
+
+                <div class="hproject4" id="hprj4">
+                    <div class="hprj1-des-mask hpj4-main">
+                        <p class="hpj-head">INSTAGRAM CLONE</p>
+                        <p class="hpj-des">Built a dynamic Instagram clone website.</p>
+                    </div>
+                    <div class="hprj2-mask hinsta-mask">
+                        <p class="hprj2-mask-head">INSTAGRAM CLONE</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="div4">
+            <div class="triangle2"></div>
+            <div class="rest2"></div>
+            <div class="div4-sub1">
+                <div class="educase">
+                    <p class="intro"><span>ACADEMIC PATH</span></p>
+                    <p class="overview edu"><span>Education</span></p>
+                </div>
+            </div>
+            <hr class="line">
+            <div class="line_cont">
+                <div class="poly"></div>
+                <div class="sset"></div>
+                <div class="tm"></div>
+                <div class="resume"></div>
+            </div>
+            <div class="poly-div">
+                <p class="course-style dip">DIPLOMA IN COMPUTER ENGINEERING</p>
+                <p class="course-des-style">Govt.Polytevhnic college, Kunnamkulam</p>
+            </div>
+            <div class="sset-div">
+                <p class="course-style scms">B.TECH IN COMPUTER SCIENCE & ENGINEERING</p>
+                <p class="course-des-style">SCMS School of Engineering & Technology Ernakulam</p>
+            </div>
+            <div class="tm-div">
+                <p class="course-style techm">PYTHON-DJANGO FULL-STACK CERTIFICATION</p>
+                <p class="course-des-style">Techmindz, Infopark Campus, Kochi</p>
+            </div>
+            <div class="resume-div">
+                <div class="resume-cont">
+                    <a href="Abhishek_C_D.pdf" download="Abhishek_C_D.pdf" class="res">RESUME</a>
+                </div>
+            </div>
+        </div>
+        <div class="div5" id="fifth-div">
+            <div class="div5-sub1">
+                <div class="contact">
+                    <p class="intro"><span>GET IN TOUCH</span></p>
+                    <p class="overview prj"><span>Contact</span></p>
+                </div>
+                <div class="show-contact">
+                    <div class="main-cnt">
+                        <div class="show-cnt">
+                            <p class="contact-text">EMAIL</p>
+                            <div class="contact-box e-box">
+                                <p class="ctnt">abhishekdenesan@gmail.com</p>
+                            </div>
+                        </div>
+                        <div class="show-cnt">
+                            <p class="contact-text">PHONE</p>
+                            <div class="contact-box p-box">
+                                <p class="ctnt">8281790914</p>
+                            </div>
+                        </div>
+                        <div class="show-cnt">
+                            <p class="contact-text">LINKEDIN</p>
+                            <div class="contact-box">
+                                <p class="ctnt">https://www.linkedin.com/in/abhishekcd/</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script>
+    function moveMouse(){
+        document.getElementById('second-div').scrollIntoView({ behavior: 'smooth' });
+    }
+
+    function aboutMove(){
+        document.getElementById('first-div').scrollIntoView({ behavior: 'smooth' });
+    }
+    function projectMove(){
+        document.getElementById('third-div').scrollIntoView({behavior: 'smooth'});
+    }
+    function contactMove(){
+        document.getElementById('fifth-div').scrollIntoView({behavior:"smooth"});
+    }
+    function openPDF() {
+        window.open('Abhishek_C_D.pdf', '_blank');
+    }
+
+document.addEventListener("DOMContentLoaded", function() {
+        setTimeout(function() {
+            var nameDiv = document.getElementById("name");
+            if (nameDiv) {
+                nameDiv.classList.remove("hidden");
+                nameDiv.classList.add("name-visible");
+            }
+        }, 1300);
+
+
+
+
+
+    const element = document.querySelector('.introduction');
+    const observer = new IntersectionObserver(function(entries) {
+    element.classList.toggle( 'animation', entries[0].isIntersecting );
+    });
+    observer.observe( element );
+    
+
+    const element1 = document.querySelector('.card1');
+    const observer1 = new IntersectionObserver(entries => {
+    element1.classList.toggle( 'card1-animation', entries[0].isIntersecting );
+    });
+    observer1.observe( element1 );
+
+    const element2 = document.querySelector('.card2');
+    const observer2 = new IntersectionObserver(entries => {
+    element2.classList.toggle( 'card2-animation', entries[0].isIntersecting );
+    });
+    observer2.observe( element2 );
+    
+    const element3 = document.querySelector('.card3');
+    const observer3 = new IntersectionObserver(entries => {
+    element3.classList.toggle( 'card3-animation', entries[0].isIntersecting );
+    });
+    observer3.observe( element3 );
+
+    const element4 = document.querySelector('.card4');
+    const observer4 = new IntersectionObserver(entries => {
+    element4.classList.toggle( 'card4-animation', entries[0].isIntersecting );
+    });
+    observer4.observe( element4 );
+    
+
+    const div3_element = document.querySelector('.case');
+    const div3_observer = new IntersectionObserver(entries => {
+    div3_element.classList.toggle( 'animation', entries[0].isIntersecting );
+    });
+    div3_observer.observe( div3_element );
+
+    const edu_element = document.querySelector('.educase');
+    const edu_observer = new IntersectionObserver(entries => {
+    edu_element.classList.toggle( 'animation', entries[0].isIntersecting );
+    });
+    edu_observer.observe( edu_element );
+
+    const contact_element = document.querySelector('.contact');
+    const contact_observer = new IntersectionObserver(function(entries) {
+        contact_element.classList.toggle( 'animation', entries[0].isIntersecting );
+    });
+    contact_observer.observe( contact_element );
+
+
+
+
+
+
+
+    const pjt1_element = document.querySelector('.project1');
+    const pjt1_observer = new IntersectionObserver(entries => {
+    pjt1_element.classList.toggle( 'pjt1-card-animation', entries[0].isIntersecting );
+    });
+    pjt1_observer.observe( pjt1_element );
+
+    const pjt2_element = document.querySelector('.pj2-card');
+    const pjt2_observer = new IntersectionObserver(entries => {
+    pjt2_element.classList.toggle( 'pjt2-card-animation', entries[0].isIntersecting );
+    });
+    pjt2_observer.observe( pjt2_element );
+
+    const pjt3_element = document.querySelector('.pj3-card');
+    const pjt3_observer = new IntersectionObserver(entries => {
+    pjt3_element.classList.toggle( 'pjt3-card-animation', entries[0].isIntersecting );
+    });
+    pjt3_observer.observe( pjt3_element );
+
+    const pjt4_element = document.querySelector('.pj4-card');
+    const pjt4_observer = new IntersectionObserver(entries => {
+    pjt4_element.classList.toggle( 'pjt4-card-animation', entries[0].isIntersecting );
+    });
+    pjt4_observer.observe( pjt4_element );
+
+
+
+    const poly_element = document.querySelector('.poly-div');
+    const poly_observer = new IntersectionObserver(entries => {
+    poly_element.classList.toggle( 'show-edus', entries[0].isIntersecting );
+    });
+    poly_observer.observe( poly_element );
+
+    const sset_element = document.querySelector('.sset-div');
+    const sset_observer = new IntersectionObserver(entries => {
+    sset_element.classList.toggle( 'show-edus', entries[0].isIntersecting );
+    });
+    sset_observer.observe( sset_element );
+
+    const tm_element = document.querySelector('.tm-div');
+    const tm_observer = new IntersectionObserver(entries => {
+    tm_element.classList.toggle( 'show-edus', entries[0].isIntersecting );
+    });
+    tm_observer.observe( tm_element );
+
+    const res_element = document.querySelector('.resume-div');
+    const res_observer = new IntersectionObserver(entries => {
+    res_element.classList.toggle( 'show-edus', entries[0].isIntersecting );
+    });
+    res_observer.observe( res_element );
+
+    const cont_element = document.querySelector('.show-contact');
+    const cont_observer = new IntersectionObserver(entries => {
+    cont_element.classList.toggle( 'move-contact', entries[0].isIntersecting );
+    });
+    cont_observer.observe( cont_element );
+
+
+
+
+    document.getElementById('prj1').addEventListener('click',function(e){
+        if(document.getElementById('prj1').classList.contains('project1')){
+            console.log('not contains1');
+        }
+        else{
+            document.getElementById('prj1').classList.remove('p1-small');
+            document.getElementById('prj1').classList.add('project1'); 
+            document.getElementById('psub1').classList.add('project1-sub1');
+            document.querySelector('.pjt1-des').style.display = 'block';
+            document.querySelector('.tkmask').style.display = 'none';  
+
+            if(!document.getElementById('prj2').classList.contains('project2')){
+                document.getElementById('prj2').classList.remove('p2-big');  
+                document.getElementById('prj2').classList.add('project2');
+                
+                document.querySelector('.pjt2-des').style.display = 'none';
+                document.querySelector('.olxmask').style.display = 'block';
+            }
+            if (!document.getElementById('prj3').classList.contains('project3')){
+                document.getElementById('prj3').classList.remove('p3-big');
+                document.getElementById('prj3').classList.add('project3');
+
+                document.querySelector('.pjt3-des').style.display = 'none';
+                document.querySelector('.fbmask').style.display = 'block';
+            }
+            if(!document.getElementById('prj4').classList.contains('project4')){
+                document.getElementById('prj4').classList.remove('p4-big');
+                document.getElementById('prj4').classList.add('project4');
+
+                document.querySelector('.pjt4-des').style.display = 'none';
+                document.querySelector('.instamask').style.display = 'block';
+            }
+
+
+        }
+    });
+
+    document.getElementById('prj2').addEventListener('click',function(){
+        if(!document.getElementById('prj2').classList.contains('project2')){
+            console.log('not contains2');
+        }
+        else{
+            document.getElementById('prj2').classList.remove('project2');  
+            document.getElementById('prj2').classList.add('p2-big');
+            document.querySelector('.olxmask').style.display = 'none';
+            document.querySelector('.pjt2-des').style.display = 'block';
+
+            if(document.getElementById('prj1').classList.contains('project1')){
+                document.getElementById('prj1').classList.remove('project1');
+                document.getElementById('psub1').classList.remove('project1-sub1');
+                document.getElementById('prj1').classList.add('p1-small');
+    
+                document.querySelector('.pjt1-des').style.display = 'none';
+                document.querySelector('.tkmask').style.display = 'block'; 
+            }
+
+            if(!document.getElementById('prj3').classList.contains('project3')){
+                document.getElementById('prj3').classList.remove('p3-big');
+                document.getElementById('prj3').classList.add('project3');
+
+                document.querySelector('.pjt3-des').style.display = 'none';
+                document.querySelector('.fbmask').style.display = 'block';
+            }
+            if(!document.getElementById('prj4').classList.contains('project4')){
+                document.getElementById('prj4').classList.remove('p4-big');
+                document.getElementById('prj4').classList.add('project4');
+
+                document.querySelector('.pjt4-des').style.display = 'none';
+                document.querySelector('.instamask').style.display = 'block';
+            }
+   
+            
+
+        }
+    });
+
+    document.getElementById('prj3').addEventListener('click',function(){
+        if(!document.getElementById('prj3').classList.contains('project3')){
+            console.log('contains3');
+        }
+        else{
+            document.getElementById('prj3').classList.remove('project3');
+            document.getElementById('prj3').classList.add('p3-big');
+            document.querySelector('.fbmask').style.display = 'none';
+            document.querySelector('.pjt3-des').style.display = 'block';
+
+            if(document.getElementById('prj1').classList.contains('project1')){
+                document.getElementById('prj1').classList.remove('project1');
+                document.getElementById('psub1').classList.remove('project1-sub1');
+                document.getElementById('prj1').classList.add('p1-small');
+
+                document.querySelector('.pjt1-des').style.display = 'none';
+                document.querySelector('.tkmask').style.display = 'block';
+            }
+            if(!document.getElementById('prj2').classList.contains('project2')){
+                document.getElementById('prj2').classList.remove('p2-big');
+                document.getElementById('prj2').classList.add('project2');
+
+                document.querySelector('.pjt2-des').style.display = 'none';
+                document.querySelector('.olxmask').style.display = 'block';
+            }
+            if(!document.getElementById('prj4').classList.contains('project4')){
+                document.getElementById('prj4').classList.remove('p4-big');
+                document.getElementById('prj4').classList.add('project4');
+
+                document.querySelector('.pjt4-des').style.display = 'none';
+                document.querySelector('.instamask').style.display = 'block';
+            }
+        }
+    });
+
+    document.getElementById('prj4').addEventListener('click',function(){
+        if(!document.getElementById('prj4').classList.contains('project4')){
+            console.log('contains4');
+        }
+        else{
+            document.getElementById('prj4').classList.remove('project4');
+            document.getElementById('prj4').classList.add('p4-big');
+            document.querySelector('.instamask').style.display = 'none';
+            document.querySelector('.pjt4-des').style.display = 'block';
+
+            if(document.getElementById('prj1').classList.contains('project1')){
+                document.getElementById('prj1').classList.remove('project1');
+                document.getElementById('psub1').classList.remove('project1-sub1');
+                document.getElementById('prj1').classList.add('p1-small');
+
+                document.querySelector('.pjt1-des').style.display = 'none';
+                document.querySelector('.tkmask').style.display = 'block';
+            }
+            if(!document.getElementById('prj2').classList.contains('project2')){
+                document.getElementById('prj2').classList.remove('p2-big');
+                document.getElementById('prj2').classList.add('project2');
+
+                document.querySelector('.pjt2-des').style.display = 'none';
+                document.querySelector('.olxmask').style.display = 'block';
+            }
+            if(!document.getElementById('prj3').classList.contains('project3')){
+                document.getElementById('prj3').classList.remove('p3-big');
+                document.getElementById('prj3').classList.add('project3');
+
+                document.querySelector('.pjt3-des').style.display = 'none';                
+                document.querySelector('.fbmask').style.display = 'block';
+            }
+            
+        }
+    });
+
+
+
+
+    
+
+    
+
+
+
+    document.getElementById('hprj1').addEventListener('click',function(e){
+        if(document.getElementById('hprj1').classList.contains('hproject1')){
+            console.log('not contains1');
+        }
+        else{
+            document.getElementById('hprj1').classList.remove('hproject1-small');
+            document.getElementById('hprj1').classList.add('hproject1');
+
+            document.querySelector('.htk-mask').style.display = 'none';
+            document.querySelector('.hpj1-main').style.display = 'block';
+
+            if(!document.getElementById('hprj2').classList.contains('hproject2')){
+                document.getElementById('hprj2').classList.remove('project2-big');  
+                document.getElementById('hprj2').classList.add('hproject2');
+
+                document.querySelector('.hpj2-main').style.display = 'none';
+                const element = document.querySelector('.holx-mask');
+                element.style.display = 'flex';
+                element.style.justifyContent = 'center';
+                element.style.alignItems = 'center';
+            }
+            if (!document.getElementById('hprj3').classList.contains('hproject3')){
+                document.getElementById('hprj3').classList.remove('project3-big');
+                document.getElementById('hprj3').classList.add('hproject3');
+
+                document.querySelector('.hpj3-main').style.display = 'none';
+                const element = document.querySelector('.hfb-mask');
+                element.style.display = 'flex';
+                element.style.justifyContent = 'center';
+                element.style.alignItems = 'center';
+                
+
+            }
+            if(!document.getElementById('hprj4').classList.contains('hproject4')){
+                document.getElementById('hprj4').classList.remove('project4-big');
+                document.getElementById('hprj4').classList.add('hproject4');
+
+                document.querySelector('.hpj4-main').style.display = 'none';
+                const element = document.querySelector('.hinsta-mask');
+                element.style.display = 'flex';
+                element.style.justifyContent = 'center';
+                element.style.alignItems = 'center';
+            }
+        }
+    });
+
+    document.getElementById('hprj2').addEventListener('click',function(){
+        if(!document.getElementById('hprj2').classList.contains('hproject2')){
+            console.log('not contains2');
+        }
+        else{
+            document.getElementById('hprj2').classList.remove('hproject2');  
+            document.getElementById('hprj2').classList.add('project2-big');
+
+            document.querySelector('.holx-mask').style.display = 'none';
+            document.querySelector('.hpj2-main').style.display = 'block';
+
+            if(document.getElementById('hprj1').classList.contains('hproject1')){
+                document.getElementById('hprj1').classList.remove('hproject1');
+                document.getElementById('hprj1').classList.add('hproject1-small');
+
+                document.querySelector('.hpj1-main').style.display = 'none';
+                const element = document.querySelector('.htk-mask');
+                element.style.display = 'flex';
+                element.style.justifyContent = 'center';
+                element.style.alignItems = 'center';
+    
+            }
+
+            if(!document.getElementById('hprj3').classList.contains('hproject3')){
+                document.getElementById('hprj3').classList.remove('project3-big');
+                document.getElementById('hprj3').classList.add('hproject3');
+
+                document.querySelector('.hpj3-main').style.display = 'none';
+                const element = document.querySelector('.hfb-mask');
+                element.style.display = 'flex';
+                element.style.justifyContent = 'center';
+                element.style.alignItems = 'center';
+
+            }
+            if(!document.getElementById('hprj4').classList.contains('hproject4')){
+                document.getElementById('hprj4').classList.remove('project4-big');
+                document.getElementById('hprj4').classList.add('hproject4');
+
+                document.querySelector('.hpj4-main').style.display = 'none';
+                const element = document.querySelector('.hinsta-mask');
+                element.style.display = 'flex';
+                element.style.justifyContent = 'center';
+                element.style.alignItems = 'center';
+            }
+
+        }
+    });
+
+    document.getElementById('hprj3').addEventListener('click',function(){
+        if(!document.getElementById('hprj3').classList.contains('hproject3')){
+            console.log('contains3');
+        }
+        else{
+            document.getElementById('hprj3').classList.remove('hproject3');
+            document.getElementById('hprj3').classList.add('project3-big');
+            document.querySelector('.hfb-mask').style.display = 'none';
+            document.querySelector('.hpj3-main').style.display = 'block';
+
+            if(document.getElementById('hprj1').classList.contains('hproject1')){
+                document.getElementById('hprj1').classList.remove('hproject1');
+                document.getElementById('hprj1').classList.add('hproject1-small');
+
+                document.querySelector('.hpj1-main').style.display = 'none';
+                const element = document.querySelector('.htk-mask');
+                element.style.display = 'flex';
+                element.style.justifyContent = 'center';
+                element.style.alignItems = 'center';
+
+            }
+            if(!document.getElementById('hprj2').classList.contains('hproject2')){
+                document.getElementById('hprj2').classList.remove('project2-big');
+                document.getElementById('hprj2').classList.add('hproject2');
+
+                document.querySelector('.hpj2-main').style.display = 'none';
+                const element = document.querySelector('.holx-mask');
+                element.style.display = 'flex';
+                element.style.justifyContent = 'center';
+                element.style.alignItems = 'center';
+
+            }
+            if(!document.getElementById('hprj4').classList.contains('hproject4')){
+                document.getElementById('hprj4').classList.remove('project4-big');
+                document.getElementById('hprj4').classList.add('hproject4');
+
+                document.querySelector('.hpj4-main').style.display = 'none';
+                const element = document.querySelector('.hinsta-mask');
+                element.style.display = 'flex';
+                element.style.justifyContent = 'center';
+                element.style.alignItems = 'center';
+
+            }
+        }
+    });
+
+    document.getElementById('hprj4').addEventListener('click',function(){
+        if(!document.getElementById('hprj4').classList.contains('hproject4')){
+            console.log('contains4');
+        }
+        else{
+            document.getElementById('hprj4').classList.remove('hproject4');
+            document.getElementById('hprj4').classList.add('project4-big');
+            document.querySelector('.hinsta-mask').style.display = 'none';
+            document.querySelector('.hpj4-main').style.display = 'block';
+
+            if(document.getElementById('hprj1').classList.contains('hproject1')){
+                document.getElementById('hprj1').classList.remove('hproject1');
+                document.getElementById('hprj1').classList.add('hproject1-small');
+
+                document.querySelector('.hpj1-main').style.display = 'none';
+                const element = document.querySelector('.htk-mask');
+                element.style.display = 'flex';
+                element.style.justifyContent = 'center';
+                element.style.alignItems = 'center';
+
+            }
+            if(!document.getElementById('hprj2').classList.contains('hproject2')){
+                document.getElementById('hprj2').classList.remove('project2-big');
+                document.getElementById('hprj2').classList.add('hproject2');
+
+                document.querySelector('.hpj2-main').style.display = 'none';
+                const element = document.querySelector('.holx-mask');
+                element.style.display = 'flex';
+                element.style.justifyContent = 'center';
+                element.style.alignItems = 'center';
+
+            }
+            if(!document.getElementById('hprj3').classList.contains('hproject3')){
+                document.getElementById('hprj3').classList.remove('project3-big');
+                document.getElementById('hprj3').classList.add('hproject3');
+
+                document.querySelector('.hpj3-main').style.display = 'none';
+                const element = document.querySelector('.hfb-mask');
+                element.style.display = 'flex';
+                element.style.justifyContent = 'center';
+                element.style.alignItems = 'center';
+
+            }
+            
+        }
+    });
+
+
+});
+
+
+</script>
+</html>
